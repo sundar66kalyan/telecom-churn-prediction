@@ -1,0 +1,29 @@
+﻿================================================================================
+                    STREAMLIT CLOUD DEPLOYMENT INFORMATION
+================================================================================
+
+Repository: https://github.com/sundar66kalyan/telecom-churn-prediction
+Developer: Kalyana Sundar
+Deployment Date: 06/14/2026 06:12:17
+
+DEPLOYMENT URL (after deployment):
+https://telecom-churn-prediction.streamlit.app
+
+DEPLOYMENT STEPS:
+1. Visit: https://share.streamlit.io
+2. Sign in with GitHub (sundar66kalyan)
+3. Click "New app"
+4. Select: sundar66kalyan/telecom-churn-prediction
+5. Branch: main
+6. Main file: app.py
+7. Click "Deploy"
+
+FILES DEPLOYED:
+- app.py (Main application)
+- requirements.txt (Dependencies)
+- .streamlit/config.toml (Configuration)
+- packages.txt (System packages)
+
+STATUS: Ready for deployment
+
+================================================================================
