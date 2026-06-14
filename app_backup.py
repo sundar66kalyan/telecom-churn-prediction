@@ -13,7 +13,14 @@ import time
 from datetime import datetime
 import base64
 import os
-import warnings
+
+
+# Check if running on Streamlit Cloud
+import os
+ON_CLOUD = os.environ.get('STREAMLIT_SHARING', False) or os.environ.get('STREAMLIT_CLOUD', False)
+
+if ON_CLOUD:
+    st.sidebar.success("🚀 Deployed on Streamlit Cloud")
 warnings.filterwarnings('ignore')
 
 # Page configuration
@@ -951,3 +958,4 @@ st.markdown("""
     <p>📅 2024 | Version 3.0</p>
 </div>
 """, unsafe_allow_html=True)
+
